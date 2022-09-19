@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sfondo {
+    background-image: url(/Users/mariasofia/Desktop/Esercizi/htmlcss-discord/img/jumbo.png);
+    background-repeat: no-repeat;
+    color: white;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.link {
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    vertical-align: -37%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid rgb(37, 94, 233);
+    border-right: 1px solid rgb(37, 94, 233);
+}
+
+.navlink:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.navbutton {
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbutton:hover {
+    color:white;
+    background-color: grey;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+header {
+    text-align: center;
+    max-width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.haederlinkMac {
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.haederlinkBrowser {
+    background-color: rgb(40, 40, 40);
+    border: 0px;
+    border-radius: 20px;
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
